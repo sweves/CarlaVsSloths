@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController {
+    
+    UIImageView* sloth;
+}
+
+@property (weak, nonatomic) IBOutlet UILabel *fingerBegin;
+@property (weak, nonatomic) IBOutlet UILabel *fingerLocation;
+
 
 @end
